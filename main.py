@@ -44,7 +44,7 @@ def animate(i):
         print(i)
         return
 
-    r_center, i_center = -0.793191078177363, 0.26093721735804
+    r_center, i_center = -0.793191078177363, 0.16093721735804
     zoom = (i / max_frames * 2) ** 3 * max_zoom + 1
     scalefactor = 1 / zoom
     rmin_ = (rmin - r_center) * scalefactor + r_center
